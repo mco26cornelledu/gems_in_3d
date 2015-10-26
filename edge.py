@@ -22,6 +22,12 @@ class edge(object):
         
     def setp0(self,p0):
         self.p0=p0
+        
+    def getp0(self):
+        return self.p0
+        
+    def getp1(self):
+        return self.p1
 
 #p0 = point()
 #p1 = point(4,5,6)

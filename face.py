@@ -21,6 +21,9 @@ class face(object):
     
     def addedge(self,newedge):
         self.elist.append(newedge)
+        
+    def getedge(self):
+        return self.elist
 
 #f0 = face()
 #f0.addedge(edge(point(1,2,3),point(2,3,4)))

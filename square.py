@@ -10,6 +10,8 @@ from edge import *
 
 from face import *
 
+from plotting import *
+
 p1 = point(0,0,0)
 p2 = point(2,0,0)
 p3 = point(2,2,0)
@@ -37,3 +39,6 @@ f0.addedge(e3)
 f0.addedge(e4)
 
 print f0
+
+plot = plotting()
+plot.plot_face(f0)
